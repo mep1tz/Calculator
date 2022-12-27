@@ -19,7 +19,7 @@ body
     justify-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 60px);
-    grid-template-rows: minmax(100px, auto) repeat(5, 60px);
+    grid-template-rows: minmax(75px, auto) repeat(5, 60px);
 }
 
 .grid-container > button {
@@ -52,10 +52,10 @@ body
 }
 
 .output .previous-operand-css{
-    font-size: 1.5rem;
+    font-size: 0.75rem;
     color:rgba(255, 255, 255, 0.75)
 }
 .output .current-operand-css{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color:rgba(255, 255, 255, 1)
 }
